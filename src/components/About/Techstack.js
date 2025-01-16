@@ -23,7 +23,11 @@ import { FaCss3 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
+import { TbBrandGolang } from "react-icons/tb";
 import { SiThealgorithms } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+
 
 // import { TbBrandGolang } from "react-icons/tb";
 
@@ -49,6 +53,12 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandGolang />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -60,8 +70,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandVscode />

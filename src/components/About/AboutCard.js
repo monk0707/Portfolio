@@ -20,10 +20,10 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Writing Blogs on Medium 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Blogs
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -35,6 +35,9 @@ function AboutCard() {
           </p>
           <footer className="blockquote-footer">Arvind</footer>
         </blockquote>
+        <a href="https://medium.com/@starkarvind1" target="_blank" rel="noopener noreferrer">
+          Visit my Medium Blogs
+        </a>
       </Card.Body>
     </Card>
   );
